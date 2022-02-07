@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowdFuunding Footer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+        body{
+            background-color: black;
+            padding: 2rem 6rem;
+        }
+        .crowdfunding1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .crowdfunding-H4{
+            font-size: 1.4rem;
+        }
+        .crowdfunding2{
+            /* border: 2px solid white; */
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            width: 100%;
+            height: 60vh;
+            margin: 3rem 0rem;
+        }
+        .crowdfunding3{
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            /* border: 2px solid yellow; */
+            flex-direction: column;
+            width: 50%;
+        }
+        .crowdfunding-p{
+            font-size: .9rem;
+            width: 93%;
+        }
+        .crowdfunding-input{
+            border: 2px solid white;
+            background-color: black;
+            width: 75%;
+            margin: 1rem 0rem;
+            height: 6vh;
+            padding: 0rem 4rem;
+            /* text-align: center; */
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .crowdfunding-btn{
+            border: none;
+            margin: 1rem 0rem;
+            width: 40%;
+            height: 5vh;
+            font-size: 1rem;
+            font-weight: bold;
+            background-color: yellowgreen;
+        }
+        .crowdfunding4{
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            flex-direction: column;
+            /* border: 2px solid blue; */
+            width: 50%;
+        }
+        .crowdfunding-p2{
+            margin: .4rem 0rem;
+        }
+        @media screen and (max-width:768px) {
+            body{
+                padding: 2rem 1rem;
+            }
+            .crowdfunding1{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .crowdfunding-H1{
+                font-size: .9rem;
+                text-align: center;
+            }
+            .crowdfunding-H4{
+                font-size: .6rem;
+                width: 78%;
+                text-align: center;
+                margin: 1rem 0rem;
+            }
+            .crowdfunding2{
+                display: flex;
+                flex-direction: column;
+                margin: 1rem 0rem;
+                height: unset;
+                width: 100%;
+            }
+            .crowdfunding-p{
+                width: 200%;
+                font-size: .6rem;
+            }
+            .crowdfunding-input{
+                width: 175%;
+                padding: 0rem 1rem;
+                font-size: .9rem;
+            }
+            .crowdfunding-btn{
+                width: 90%;
+                font-size: .7rem;
+            }
+            .crowdfunding-p2{
+                width: 200%;
+                font-size: .6rem;
+            }
+        }
+        @media screen and (max-width:480px) {
+            body{
+                padding: 2rem 1rem;
+            }
+            .crowdfunding1{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .crowdfunding-H1{
+                font-size: .9rem;
+                text-align: center;
+            }
+            .crowdfunding-H4{
+                font-size: .6rem;
+                width: 78%;
+                text-align: center;
+                margin: 1rem 0rem;
+            }
+            .crowdfunding2{
+                display: flex;
+                flex-direction: column;
+                margin: 1rem 0rem;
+                height: unset;
+                width: 100%;
+            }
+            .crowdfunding-p{
+                width: 200%;
+                font-size: .6rem;
+            }
+            .crowdfunding-input{
+                width: 175%;
+                padding: 0rem 1rem;
+                font-size: .9rem;
+            }
+            .crowdfunding-btn{
+                width: 90%;
+                font-size: .7rem;
+            }
+            .crowdfunding-p2{
+                width: 200%;
+                font-size: .6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="crowdfunding1">
+        <h1 class="crowdfunding-H1">
+            How much does it cost to raise capital on VentureLattice?
+        </h1>
+        <h4 class="crowdfunding-H4">
+            Use the calculator below to get an instant quote to raise capital.
+        </h4>
+    </div>
+    <div class="crowdfunding2">
+        <div class="crowdfunding3">
+            <p class="crowdfunding-p">
+                How much are you looking to raise on VentureLattice?
+            </p>
+            <input type="text" class="crowdfunding-input" placeholder="INR   1,00,000">
+            <p class="crowdfunding-p">
+                How much are you looking to raise on VentureLattice?
+            </p>
+            <input type="text" class="crowdfunding-input" placeholder="INR   1,00,000">
+            <p class="crowdfunding-p">
+                The pre-money valuation or valuation cap for a seed stage company on VentureLattice is typically 2-4Million
+            </p>
+            <button class="crowdfunding-btn">Calculate Cost</button>
+        </div>
+        
+        <div class="crowdfunding4">
+            <p class="crowdfunding-p2">
+                COST HIGHLIGHTS
+            </p>
+            <p class="crowdfunding-p2">
+                > placements fee:7.5% of what you raise on VentureLattice
+            </p>
+            <p class="crowdfunding-p2">
+                > Equity fee:5.0% of what you raise on VentureLattice.
+            </p>
+            <p class="crowdfunding-p2">
+                > Only pay if your fundraise is successful.
+            </p>
+            <p class="crowdfunding-p2">
+                > Upto 3000 of accounting fees reimbursed upon camping launch
+            </p>
+            <p class="crowdfunding-p2">
+                Up-front costa such as escrow account establishment, legal review, and filling fees will be covered by VenturLattice. VentureLattice is compensated at close if the fundraising is successful. VentureLattice wll cover the expenditures if does not happen.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowd Funding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 3rem 5rem;
+        }
+
+        .crowdfunding1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* padding: 3rem 8rem; */
+        }
+
+        .crowdfunding-boxes {
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            height: 40vh;
+            margin: 0rem 1rem;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 3px rgb(180, 180, 180);
+        }
+
+        .crowdfunding-H1 {
+            font-size: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .crowdfunding-P {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            margin: 2rem 0rem;
+            width: 82%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .crowdfunding2{
+            margin: 4rem 0rem;
+        }
+        .crowdfunding-H5 {
+            font-size: 1.2rem;
+            font-family: 'Roboto', sans-serif;
+            /* padding: 0rem 9rem; */
+        }
+
+        .crowdfunding-P2 {
+            /* padding: 0rem 9rem; */
+            margin: 1rem 0rem;
+            font-size: 1rem;
+            font-family: 'Roboto', sans-serif;
+            width: 83%;
+        }
+
+        .crowdfunding-boxes2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .crowdfunding3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0rem;
+            /* padding: 1rem 8rem; */
+        }
+
+        .crowdfunding-boxes2 {
+            border: none;
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            /* justify-content: space-evenly; */
+            flex-direction: column;
+            /* text-align: center; */
+            width: 100%;
+            height: 50vh;
+            margin: 0rem 1rem;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 3px rgb(180, 180, 180);
+        }
+
+        .crowdfunding-H2-2 {
+            font-family: 'Roboto', sans-serif;
+            margin: 2rem 1.5rem;
+        }
+
+        .crowdfunding-P3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            margin: 1rem 1.5rem;
+            width: 82%;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .crowdfunding-H5-2 {
+            font-size: 1.2rem;
+            font-family: 'Roboto', sans-serif;
+            /* padding: 0rem 9rem; */
+            margin: 2rem 0rem;
+        }
+
+        .crowdfunding-para-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* padding: 0rem 9rem; */
+            margin: 2rem 0rem;
+            font-size: 1.1rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .crowdfunding-img {
+            margin: 0rem 1rem;
+        }
+
+        .crowdfunding-H5-3 {
+            font-size: 1.2rem;
+            font-family: 'Roboto', sans-serif;
+            /* padding: 0rem 9rem; */
+            margin: 2rem 0rem;
+        }
+
+        .crowdfunding-P5 {
+            /* padding: 0rem 9rem; */
+            margin-bottom: 3rem;
+            font-size: 1rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .crowdfunding-P5 a {
+            text-decoration: none;
+        }
+
+        .crowdfunding-P6 {
+            /* padding: 0rem 9rem; */
+            font-size: 1rem;
+            font-family: 'Roboto', sans-serif;
+        }
+        @media screen and (max-width:1024px) {
+            .crowdfunding-boxes{
+                height: 50vh;
+            }
+            .crowdfunding-boxes2{
+                text-align: center;
+            }
+        }
+        @media screen and (max-width:768px) {
+            body{
+                padding: 3rem 2rem;
+            }
+            .crowdfunding-boxes{
+                height: 60vh;
+            }
+            .crowdfunding-boxes2{
+                height: 60vh;
+                text-align: center;
+            }
+        }
+        @media screen and (max-width:480px) {
+            body{
+                padding: 0rem 1rem;
+            }
+            .crowdfunding1{
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 1rem;
+                justify-content: center;
+                align-items: center;
+            }
+            .crowdfunding-boxes{
+                margin: 1rem 0rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .crowdfunding-H1{
+                font-size: 2rem;
+            }
+            .crowdfunding-H5{
+                /* padding: 0rem 1rem; */
+                font-size: 1rem;
+            }
+            .crowdfunding-P2{
+                /* padding: 1rem 1rem; */
+                width: 100%;
+            }
+            .crowdfunding3{
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 1rem;
+                justify-content: unset;
+                align-items: unset;
+            }
+            .crowdfunding-boxes2{
+                margin: 1rem 0rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .crowdfunding-H2-2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .crowdfunding-para-img{
+                flex-direction: column;
+                width: 100%;
+            }
+            .crowdfunding-img{
+                margin: 1rem 0rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="crowdfunding1">
+        <div class="crowdfunding-boxes">
+            <h1 class="crowdfunding-H1">
+                🎯
+            </h1>
+            <p class="crowdfunding-P">Founders adore it. venture capitalists trust it, and a million Investors want to
+                own aplace of the companies they believe in</p>
+        </div>
+        <div class="crowdfunding-boxes">
+            <h1 class="crowdfunding-H1">
+                👨
+            </h1>
+            <p class="crowdfunding-P">Founders adore it. venture capitalists trust it, and a million Investors want to
+                own aplace of the companies they believe in</p>
+        </div>
+        <div class="crowdfunding-boxes">
+            <h1 class="crowdfunding-H1">
+                👍
+            </h1>
+            <p class="crowdfunding-P">Founders adore it. venture capitalists trust it, and a million Investors want to
+                own aplace of the companies they believe in</p>
+        </div>
+    </div>
+    <div class="crowdfunding2">
+        <h5 class="crowdfunding-H5">
+            Expert advice without compromising
+        </h5>
+        <p class="crowdfunding-P2">
+            We'll take the stress out of raising investment by advising you on every aspect of your fundraise, from
+            overall strategy, to marketing communications and the legal details of the transaction.
+        </p>
+        <div class="crowdfunding3">
+            <div class="crowdfunding-boxes2">
+                <h2 class="crowdfunding-H2-2">
+                    The idel pitch
+                </h2>
+                <p class="crowdfunding-P3">Founders adore it. venture capitalists trust it, and a million Investors want
+                    to own aplace of the companies they believe in</p>
+            </div>
+            <div class="crowdfunding-boxes2">
+                <h2 class="crowdfunding-H2-2">
+                    Information at your fingertips
+                </h2>
+                <p class="crowdfunding-P3">Founders adore it. venture capitalists trust it, and a million Investors want
+                    to own aplace of the companies they believe in</p>
+            </div>
+            <div class="crowdfunding-boxes2">
+                <h2 class="crowdfunding-H2-2">
+                    Legal made simple
+                </h2>
+                <p class="crowdfunding-P3">Founders adore it. venture capitalists trust it, and a million Investors want
+                    to own aplace of the companies they believe in</p>
+            </div>
+        </div>
+    </div>
+    <div class="crowdfunding4">
+        <h5 class="crowdfunding-H5-2">Success Fee</h5>
+        <div class="crowdfunding-para-img">
+            <p class="crowdfunding-P4">
+                Our success is aligned to yours, so we only charge an exit fee if you make a profit on your investment;
+                there are no annual fees for the ongoing support we provide once you've made an investment. If you make
+                a return on your investment, you'll keep 95% of any profit, and we'll take a 5% fee for managing your
+                investement over the years.
+                <br><br>
+                The success fee, which, sometimes also known as 'carry', covers everything we do to find India's hottest
+                high-growth businesses for you to invest in, and all the work we undertake holding and managing your
+                shareholding on your behalf over the years.
+                <br><br>
+                While it's free to join our investor community, there is a 1.5% charge applied to the amount you invest,
+                which is subject to a minimum of 0.50 and is capped at a maximum of 250.00
+                <br><br>
+                Crowdcube's success fee only applies to profits made on investments in businesses that opened to
+                investment on or after the 1st April 2022.
+            </p>
+            <div class="crowdfunding-img">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <div class="crowdfunding5">
+        <h5 class="crowdfunding-H5-3">Frequently Asked Questions</h5>
+        <p class="crowdfunding-P5">Can't find your answer? head over to our<a href="#"> Help center</a></p>
+        <p class="crowdfunding-P6">How do I make an investment ?</p>
+        <br>
+        <p class="crowdfunding-P6">
+            To begin investing in the companies you care about, you must first become a VentureLattice member. When
+            you're ready to invest your first rupee. To assist fuel their growth, you may contribute as little as 100
+            rupees (albeit you will be encouraged to make your investment in an exact multiple of the share price).
+            <br><br>
+            If a share price is 3.10, for example, the minimum investment in that pitch is 12.40 rupees. When making an
+            investment, you will be asked for the minimum investment amount in the particular pitch or the nearest
+            multiple of the share price.
+            <br><br>
+            Stripe, our third-party payment provider, allows you to pay for your investment. You can pay with a credit,
+            debit, or prepaid.
+            <br><br>
+            If a share price is 3.10, for example, the minimum investment in that pitch is 12.40 rupees. When making an
+            investment, you will be asked for the minimum investment amount in the particular pitch or the nearest
+            multiple of the share price.
+            <br><br>
+            Stripe, our third-party payment provider, allows you to pay for your investment. You can pay with a credit,
+            debit, or prepaid card. We're afraid that we won't be able to accept payment via check or bank transfer.
+            <br><br>
+            You will be provided a copy of the adopted Articles of Association to review once the business you backed
+            has successfully funded and is closed for investment. After that, there will be a cooling-off phase, which
+            usually lasts seven days. If you desire, you can reduce or withdraw your investment during this time. You
+            can do so by getting in touch with the team.
+            <br><br><br>
+            Who can invest?
+            <br><br>
+            You must be over the age of 18 and legally able to invest to invest with Crowdcube and help support the
+            beautiful. You must also be a resident of the United Kingdom or a nation where financial advertisements of
+            this sort are legal. Before creating an account, you should get independent legal counsel if you have any
+            concerns about the legality of investing through the site in your place of residence.
+            <br><br>
+            We are unable to market investment possibilities to residents of the United States, Canada, Japan, or any
+            other nation where doing so would be illegal. If you live in one of these countries, please do not register
+            with us.
+            <br><br>
+            Please make sure you create your VentureLattice account in your own name, as we are unable to accept joint
+            investments. You'll also be asked to select an investment type (daily, professional, etc.) and complete a
+            short survey. The information you'll get from the survey will help you comprehend the high-risk nature of
+            investing in startups and early-stage companies. You not required to complete the form if you receive
+            independent advice. It's worth noting that these investor kinds aren't applicable to all platforms.
+            <br><br><br>
+            How can! make areturn on my investment?
+            <br><br>
+            Selling your stock for more than you bought for it is one way to profit from your investment. We don't have
+            an active secondary market for equity investments at VentureLattice, therefore you won't be able to sell
+            your stock right away. Ideally, the company will grow to the point where it will be listed on a stock
+            exchange, acquired by a larger corporation, or the company's management will purchase back shares from
+            investors. You are more likely to be able to sell your shares at that point. Some businesses, on the other
+            hand, may become lucrative and able to pay dividends.
+            <br><br>
+            Learn more about our investor returns, here.
+            <br>
+            You can also ask for any shares in a company in your portfolio to be sold. VentureLattice will offer
+            managed, company approved secondary events if buy- and sell-side demands are met.
+            <br><br>
+            We cannot guarantee that the transaction will take place if you declare your intention to purchase or sell
+            shares. If we are able to facilitate the sale of your shares, we will inform you through email with an
+            update.
+            <br><br>
+            We're working on the full roll-out of Cubex over the next few months, but in the meantime, you can find out
+            more and register your interest in buying or selling shares here..
+        </p>
+    </div>
+</body>
+
+</html>
